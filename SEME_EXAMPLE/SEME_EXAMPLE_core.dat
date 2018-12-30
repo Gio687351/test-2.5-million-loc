@@ -1,0 +1,28 @@
+1                                               ! Analysis type: 1=Thermal, 2=Structural
+0								! Frame central core refine mesh flag (1=yes, 0=no)
+0.062								! Frame total core thickness dimension (inch)
+0.020								! Frame central core material thickness dimension (inch)
+5.960								! Frame Total Width dimension, direction from rail-to-rail (inch)
+6.190								! Frame Total Length dimension, direction along rail (inch)
+0.100								! Frame Rail thickness dimension (inch)
+0.260								! Frame Rail Width dimension, direction from rail-to-rail (inch)
+0.100								! Frame Wall height dimension (inch)
+0.050								! Frame Side Wall Thickness dimension, direction from rail-to-rail (inch)
+0.050								! Frame Top Wall Thickness dimension, direction along rail (inch)
+0.220								! Frame Bot Wall Edge Setback dimension, direction along rail (inch)
+0.375								! Frame Bot Core Recess dimension, direction along rail (inch)
+999999,4.240,4.240,4.240,4.240,4.240,4.240	! Frame Center Core Thermal PMID & Conductivities
+999999,1.00+7,,.32,.100                         ! Frame Center Core Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+999999,4.240,4.240,4.240,4.240,4.240,4.240	! Frame Outer Core Thermal PMID & Conductivities
+999999,1.00+7,,.32,.100                         ! Frame Outer Core Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+999999,4.240,4.240,4.240,4.240,4.240,4.240	! Frame Wall Thermal PMID & Conductivities
+999999,1.00+7,,.32,.100                         ! Frame Wall Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+2								! Frame Number of Cutouts
+2.315,0.375,0.535,0.000					! Frame Cutout X-width, Y-height, X-offset, Y-offset
+2.315,0.375,3.110,0.000					! Frame Cutout X-width, Y-height, X-offset, Y-offset
+0								! Frame Number of Standoffs
+0.258,0.258,2.861,2.861					! Frame Standoff X-width, Y-height, X-offset, Y-offset
+0.258,0.225,2.861,0.220					! Frame Standoff X-width, Y-height, X-offset, Y-offset
+
+
+

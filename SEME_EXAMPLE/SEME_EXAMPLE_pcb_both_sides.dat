@@ -1,0 +1,245 @@
+11									! # pcb's on side "A"
+-2.590								! pcb #1 x-coord. origin from Lower LHS of pcb width major dim., direction from rail-to-rail (inch)
+-2.815								! pcb #1 y-coord. origin from Lower LHS of pcb length major dim., direction along rail (inch)
+5.280									! pcb width major dimension, direction from rail-to-rail (inch)
+5.630									! pcb length major dimension, direction along rail (inch)
+$
+4									! # of polygon vertexes outlining current pcb on side "A"
+0.000,0.000								! pcb polygon vertex
+5.280,0.000								! pcb polygon vertex
+5.280,5.630								! pcb polygon vertex
+0.000,5.630								! pcb polygon vertex
+0.000									! pcb x-coord. origin from Lower LHS of pcb width major dim., direction from rail-to-rail (inch)
+0.000									! pcb y-coord. origin from Lower LHS of pcb length major dim., direction along rail (inch)
+0.086									! pcb side "A" thickness dimension (inch)
+0.005									! core-to-pwb side "A" adhesive thickness dimension (inch)
+0.030									! thermal adhesive (component-to-pwb) conductivity (W/in-C)
+$
+999999,0.0328,0.0328,0.0328,0.0328,0.0328,0.0328	! core-to-pwb side "A" Adhesive Thermal PMID & Conductivities
+999999,100.0,,.40,.053                         		! core-to-pwb side "A" Adhesive Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+1,999999,0.680,0.680,0.00730,0.680,0.00730,0.00730	! pcb side "A" Thermal PMID & Conductivities
+999999,3.00+6,,.40,.135                         	! pcb side "A" Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+$
+3000		! Side "A", Number of Vias										<quan>
+0.012		! Side "A", Via Drill Diameter									<inch>
+0.008		! Side "A", Via Inner Diameter									<inch>
+$
+4		! Side "A" X-Direction  0.5 oz. Conductor Layers, Number of Layers 			<quan>
+0.0007	! Side "A" X-Direction  0.5 oz. Conductor Layers, Thickness 				<inch>
+20.		! Side "A" X-Direction  0.5 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "A" X-Direction  0.5 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "A" X-Direction  0.5 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "A" X-Direction  0.5 oz. Conductor Layers, Z Conductivity of Resin		<W/in-C>
+6           ! Side "A" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+12          ! Side "A" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+18          ! Side "A" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+24          ! Side "A" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+$
+4		! Side "A" Y-Direction  0.5 oz. Conductor Layers, Number of Layers 			<quan>
+0.0007	! Side "A" Y-Direction  0.5 oz. Conductor Layers, Thickness 				<inch>
+20.		! Side "A" Y-Direction  0.5 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "A" Y-Direction  0.5 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "A" Y-Direction  0.5 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "A" Y-Direction  0.5 oz. Conductor Layers, Z Conductivity of Resin		<W/in-C>
+2           ! Side "A" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+8           ! Side "A" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+14          ! Side "A" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+20          ! Side "A" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+$
+0		! Side "A" X-Direction  1 oz. Conductor Layers, Number of Layers 				<quan>
+0.0014	! Side "A" X-Direction  1 oz. Conductor Layers, Thickness 					<inch>
+20.		! Side "A" X-Direction  1 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "A" X-Direction  1 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "A" X-Direction  1 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "A" X-Direction  1 oz. Conductor Layers, Z Conductivity of Resin			<W/in-C>
+$
+0		! Side "A" Y-Direction  1 oz. Conductor Layers, Number of Layers 				<quan>
+0.0014	! Side "A" Y-Direction  1 oz. Conductor Layers, Thickness 					<inch>
+20.		! Side "A" Y-Direction  1 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "A" Y-Direction  1 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "A" Y-Direction  1 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "A" Y-Direction  1 oz. Conductor Layers, Z Conductivity of Resin			<W/in-C>
+$
+4		! Side "A" Power/Ground Layers, 			Number of Layers 				<quan>
+0.0014	! Side "A" Power/Ground Layers, 			Thickness 					<inch>
+80.		! Side "A" Power/Ground Layers, 			Percent Area Copper			<%>
+20.		! Side "A" Power/Ground Layers, 			Percent Area Resin			<%>
+0.006		! Side "A" Power/Ground Layers, 			X/Y Conductivity of Resin		<W/in-C>
+0.006		! Side "A" Power/Ground Layers, 			Z Conductivity of Resin			<W/in-C>
+4           ! Side "A" Power/Ground Layers, 			Layer Number				<#>
+10          ! Side "A" Power/Ground Layers, 			Layer Number				<#>
+16          ! Side "A" Power/Ground Layers, 			Layer Number				<#>
+22          ! Side "A" Power/Ground Layers, 			Layer Number				<#>
+$
+11		! Side "A" Laminate Layers, 				Number of Layers 				<quan>
+0.0063	! Side "A" Laminate Layers, 				Thickness 					<inch>
+0.006		! Side "A" Laminate Layers, 				X/Y Conductivity of Resin		<W/in-C>
+0.006		! Side "A" Laminate Layers, 				Z Conductivity of Resin			<W/in-C>
+3           ! Side "A" Laminate Layers, 				Layer Number				<#>
+5           ! Side "A" Laminate Layers, 				Layer Number				<#>
+7           ! Side "A" Laminate Layers, 				Layer Number				<#>
+9           ! Side "A" Laminate Layers, 				Layer Number				<#>
+11          ! Side "A" Laminate Layers, 				Layer Number				<#>
+13          ! Side "A" Laminate Layers, 				Layer Number				<#>
+15          ! Side "A" Laminate Layers, 				Layer Number				<#>
+17          ! Side "A" Laminate Layers, 				Layer Number				<#>
+19          ! Side "A" Laminate Layers, 				Layer Number				<#>
+21          ! Side "A" Laminate Layers, 				Layer Number				<#>
+23          ! Side "A" Laminate Layers, 				Layer Number				<#>
+$
+2		! Side "A" Solder Mask Layers, 			Number of Layers 				<quan>
+0.0025	! Side "A" Solder Mask Layers, 			Thickness 					<inch>
+1.270		! Side "A" Solder Mask Layers, 			X/Y Conductivity of Resin		<W/in-C>
+0.009		! Side "A" Solder Mask Layers, 			Z Conductivity of Resin			<W/in-C>
+1           ! Side "A" Solder Mask Layers, 			Layer Number				<#>
+25          ! Side "A" Solder Mask Layers, 			Layer Number				<#>
+$
+0		! Side "A" Copper Plating "A" Layers, 		Number of Layers 				<quan>
+0.0025	! Side "A" Copper Plating "A" Layers, 		Thickness 					<inch>
+0.006		! Side "A" Copper Plating "A" Layers, 		Z Conductivity of Resin			<W/in-C>
+$
+0		! Side "A" Copper Plating "B" Layers, 		Number of Layers 				<quan>
+0.0025	! Side "A" Copper Plating "B" Layers, 		Thickness 					<inch>
+1.180		! Side "A" Copper Plating "B" Layers, 		Z Conductivity of Resin			<W/in-C>
+$
+0									! pcb side "A" Number of cutouts
+$
+0
+$
+$
+11									! # pcb's on side "B"
+-2.620								! pcb #1 x-coord. origin from Lower LHS of pcb width major dim., direction from rail-to-rail (inch)
+-2.815								! pcb #1 y-coord. origin from Lower LHS of pcb length major dim., direction along rail (inch)
+$
+4									! # of polygon vertexes outlining current pcb on side "B"
+0.000,0.000								! pcb polygon vertex
+5.280,0.000								! pcb polygon vertex
+5.280,5.630								! pcb polygon vertex
+0.000,5.630								! pcb polygon vertex
+0.000									! pcb x-coord. origin from Lower LHS of pcb width major dim., direction from rail-to-rail (inch)
+0.000									! pcb y-coord. origin from Lower LHS of pcb length major dim., direction along rail (inch)
+0.086									! pcb side "B" thickness dimension (inch)
+0.005									! core-to-pwb side "B" adhesive thickness dimension (inch)
+0.030									! thermal adhesive (component-to-pwb) conductivity (W/in-C)
+$
+999999,0.0328,0.0328,0.0328,0.0328,0.0328,0.0328	! core-to-pwb side "B" Adhesive Thermal PMID & Conductivities
+999999,100.0,,.40,.053                         		! core-to-pwb side "B" Adhesive Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+1,999999,0.680,0.680,0.00730,0.680,0.00730,0.00730	! pcb side "B" Thermal PMID & Conductivities
+999999,3.00+6,,.40,.135                         	! pcb side "B" Structural PMID & Young's Modulus, Shear Modulus, Poisson's Ratio & Mass Density
+$
+0		! Side "B", Number of Vias										<quan>
+0.012		! Side "B", Via Drill Diameter									<inch>
+0.008		! Side "B", Via Inner Diameter									<inch>
+$
+4		! Side "B" X-Direction  0.5 oz. Conductor Layers, Number of Layers 			<quan>
+0.0007	! Side "B" X-Direction  0.5 oz. Conductor Layers, Thickness 				<inch>
+20.		! Side "B" X-Direction  0.5 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "B" X-Direction  0.5 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "B" X-Direction  0.5 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "B" X-Direction  0.5 oz. Conductor Layers, Z Conductivity of Resin		<W/in-C>
+6           ! Side "B" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+12          ! Side "B" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+18          ! Side "B" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+24          ! Side "B" X-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+$
+4		! Side "B" Y-Direction  0.5 oz. Conductor Layers, Number of Layers 			<quan>
+0.0007	! Side "B" Y-Direction  0.5 oz. Conductor Layers, Thickness 				<inch>
+20.		! Side "B" Y-Direction  0.5 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "B" Y-Direction  0.5 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "B" Y-Direction  0.5 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "B" Y-Direction  0.5 oz. Conductor Layers, Z Conductivity of Resin		<W/in-C>
+2           ! Side "B" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+8           ! Side "B" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+14          ! Side "B" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+20          ! Side "B" Y-Direction  0.5 oz. Conductor Layers, Layer Number				<#>
+$
+0		! Side "B" X-Direction  1 oz. Conductor Layers, Number of Layers 				<quan>
+0.0014	! Side "B" X-Direction  1 oz. Conductor Layers, Thickness 					<inch>
+20.		! Side "B" X-Direction  1 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "B" X-Direction  1 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "B" X-Direction  1 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "B" X-Direction  1 oz. Conductor Layers, Z Conductivity of Resin			<W/in-C>
+$
+0		! Side "B" Y-Direction  1 oz. Conductor Layers, Number of Layers 				<quan>
+0.0014	! Side "B" Y-Direction  1 oz. Conductor Layers, Thickness 					<inch>
+20.		! Side "B" Y-Direction  1 oz. Conductor Layers, Percent Area Copper			<%>
+80.		! Side "B" Y-Direction  1 oz. Conductor Layers, Percent Area Resin			<%>
+0.006		! Side "B" Y-Direction  1 oz. Conductor Layers, X/Y Conductivity of Resin		<W/in-C>
+0.0041	! Side "B" Y-Direction  1 oz. Conductor Layers, Z Conductivity of Resin			<W/in-C>
+$
+4		! Side "B" Power/Ground Layers, 			Number of Layers 				<quan>
+0.0014	! Side "B" Power/Ground Layers, 			Thickness 					<inch>
+80.		! Side "B" Power/Ground Layers, 			Percent Area Copper			<%>
+20.		! Side "B" Power/Ground Layers, 			Percent Area Resin			<%>
+0.006		! Side "B" Power/Ground Layers, 			X/Y Conductivity of Resin		<W/in-C>
+0.006		! Side "B" Power/Ground Layers, 			Z Conductivity of Resin			<W/in-C>
+4           ! Side "B" Power/Ground Layers, 			Layer Number				<#>
+10          ! Side "B" Power/Ground Layers, 			Layer Number				<#>
+16          ! Side "B" Power/Ground Layers, 			Layer Number				<#>
+22          ! Side "B" Power/Ground Layers, 			Layer Number				<#>
+$
+11		! Side "B" Laminate Layers, 				Number of Layers 				<quan>
+0.0063	! Side "B" Laminate Layers, 				Thickness 					<inch>
+0.006		! Side "B" Laminate Layers, 				X/Y Conductivity of Resin		<W/in-C>
+0.006		! Side "B" Laminate Layers, 				Z Conductivity of Resin			<W/in-C>
+3           ! Side "B" Laminate Layers, 				Layer Number				<#>
+5           ! Side "B" Laminate Layers, 				Layer Number				<#>
+7           ! Side "B" Laminate Layers, 				Layer Number				<#>
+9           ! Side "B" Laminate Layers, 				Layer Number				<#>
+11          ! Side "B" Laminate Layers, 				Layer Number				<#>
+13          ! Side "B" Laminate Layers, 				Layer Number				<#>
+15          ! Side "B" Laminate Layers, 				Layer Number				<#>
+17          ! Side "B" Laminate Layers, 				Layer Number				<#>
+19          ! Side "B" Laminate Layers, 				Layer Number				<#>
+21          ! Side "B" Laminate Layers, 				Layer Number				<#>
+23          ! Side "B" Laminate Layers, 				Layer Number				<#>
+$
+2		! Side "B" Solder Mask Layers, 			Number of Layers 				<quan>
+0.0025	! Side "B" Solder Mask Layers, 			Thickness 					<inch>
+1.270		! Side "B" Solder Mask Layers, 			X/Y Conductivity of Resin		<W/in-C>
+0.009		! Side "B" Solder Mask Layers, 			Z Conductivity of Resin			<W/in-C>
+1           ! Side "B" Solder Mask Layers, 			Layer Number				<#>
+25          ! Side "B" Solder Mask Layers, 			Layer Number				<#>
+$
+0		! Side "B" Copper Plating "A" Layers, 		Number of Layers 				<quan>
+0.0025	! Side "B" Copper Plating "A" Layers, 		Thickness 					<inch>
+0.006		! Side "B" Copper Plating "A" Layers, 		Z Conductivity of Resin			<W/in-C>
+$
+0		! Side "B" Copper Plating "B" Layers, 		Number of Layers 				<quan>
+0.0025	! Side "B" Copper Plating "B" Layers, 		Thickness 					<inch>
+1.180		! Side "B" Copper Plating "B" Layers, 		Z Conductivity of Resin			<W/in-C>
+$
+0									! pcb side "B" Number of cutouts
+$
+0
+$
+
+
+
+11									! # pcb's on side "A"
+-2.620								! pcb #1 x-coord. origin from Lower LHS of pcb width major dim., direction from rail-to-rail (inch)
+-2.815								! pcb #1 y-coord. origin from Lower LHS of pcb length major dim., direction along rail (inch)
+
+
+7									! pcb side "A" Number of cutouts
+0.129,0.258,0.000,2.511						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+0.258,0.258,2.511,2.511						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+0.229,0.258,5.151,2.511						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+1.597,0.522,0.000,5.381						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+0.432,0.475,2.483,5.437						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+0.517,0.613,2.788,5.317						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+2.300,0.531,3.114,5.400						! pcb side "A" cutout X-width, Y-height, X-offset, Y-offset
+
+11									! # pcb's on side "B"
+-2.620								! pcb #1 x-coord. origin from Lower LHS of pcb width major dim., direction from rail-to-rail (inch)
+-2.815								! pcb #1 y-coord. origin from Lower LHS of pcb length major dim., direction along rail (inch)
+
+
+6									! pcb side "B" Number of cutouts
+0.158,0.284,0.000,2.536						! pcb side "B" cutout X-width, Y-height, X-offset, Y-offset
+0.158,0.284,5.147,2.536						! pcb side "B" cutout X-width, Y-height, X-offset, Y-offset
+0.221,0.221,0.000,5.400						! pcb side "B" cutout X-width, Y-height, X-offset, Y-offset
+0.221,0.221,2.516,5.400						! pcb side "B" cutout X-width, Y-height, X-offset, Y-offset
+0.221,0.221,5.147,5.400						! pcb side "B" cutout X-width, Y-height, X-offset, Y-offset
+0.258,0.258,2.511,2.511						! pcb side "B" cutout X-width, Y-height, X-offset, Y-offset
+
